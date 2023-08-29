@@ -12,7 +12,7 @@ export default function Arraymethod() {
   return (
     <div>
         <h1 style={{backgroundColor:"black",color:"white"}}>ARRAY METHOD </h1>
-        <h1>{fruits}</h1>
+        <h2>{fruits}</h2>
       <ol>
             {fruits.map((row)=>{
                 return<li>{row}</li>
